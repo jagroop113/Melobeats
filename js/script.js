@@ -119,7 +119,7 @@ async function displayAlbums() {
 }
 
 async function main() {
-    await getSongs("songs/Diljit");
+    await getSongs(".songs/Diljit");
     playMusic(songs[0], true);
     await displayAlbums();
 
